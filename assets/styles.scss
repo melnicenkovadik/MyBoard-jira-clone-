@@ -1,0 +1,55 @@
+
+.logo {
+  max-height: 64px;
+  font-family: 'Montserrat';
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 90px;
+  @media only screen and (max-width: 600px) {
+    height: 64px;
+  }
+
+  .logo-main {
+    width: 86px;
+    margin-right: 15px;
+    @media only screen and (max-width: 600px) {
+      height: 64px;
+      margin-right: 5px;
+
+    }
+  }
+}
+
+.fancy-title {
+  font-family: 'Montserrat';
+  font-size: 48px;
+}
+
+.signin-layout {
+  background-color: $primary-color;
+}
+
+
+.board-topbar {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  background-color: $white !important;
+}
+
+.board-user {
+  font-size: 15px;
+  margin-bottom: 0px !important;
+  text-align: right;
+}
+
+.board-board-tile {
+  margin: 20px 20px 0px 0px;
+
+  .v-card__subtitle {
+    font-size: 8px;
+  }
+}

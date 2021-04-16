@@ -1,0 +1,38 @@
+{
+  "name": "jira-clone",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@nuxtjs/firebase": "^7.5.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "core-js": "^3.9.1",
+    "firebase": "^8.3.1",
+    "moment": "^2.29.1",
+    "nuxt": "^2.15.3",
+    "nuxt-fontawesome": "^0.4.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/vuetify": "^1.11.3",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "font-awesome": "4.7.0",
+    "prettier": "^2.2.1",
+    "vuedraggable": "^2.24.3",
+    "vuetify": "^2.4.9"
+  }
+}
