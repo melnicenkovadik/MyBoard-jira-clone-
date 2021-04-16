@@ -774,7 +774,7 @@ export default {
   background-color: $white;
   border-radius: 10px;
   box-shadow: 10px 10px 50px rgba(145, 167, 168, 0.3);
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 600px) {
     margin-top: 10px;
     min-height: 44px;
     background: #FFFFFF;
@@ -837,7 +837,7 @@ export default {
     font-size: 20px;
     line-height: 24px;
     color: #333333;
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 600px) {
       font-style: normal;
       font-weight: 600;
       font-size: 10px;
@@ -920,7 +920,7 @@ export default {
       position: relative;
       margin-top: 0;
 
-      @media only screen and (max-width: 400px) {
+      @media only screen and (max-width: 600px) {
         margin-top: 10px;
         min-width: auto;
         min-height: auto;
@@ -933,7 +933,7 @@ export default {
       }
 
       .list-header {
-        @media only screen and (max-width: 400px) {
+        @media only screen and (max-width: 600px) {
           border-radius: 15px 15px 15px 15px;
         }
         background-color: #ACCDFF;
