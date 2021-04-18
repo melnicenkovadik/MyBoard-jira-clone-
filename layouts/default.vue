@@ -12,10 +12,10 @@
               class='logo col-sm-7'
             >
               <nuxt-link to='/'>
-                <img class='logo-main ' src='~/assets/icons/logo/Logo.svg' alt='Ze' />
+                <img class='logo-main ' src='~/assets/icons/logo/Logo.svg' alt='Ze'/>
               </nuxt-link>
-              <img src='~/assets/icons/logo/Ze.svg' alt='Ze' />
-              <img src='~/assets/icons/logo/Board-125x31.svg' alt='Board' />
+              <img src='~/assets/icons/logo/Ze.svg' alt='Ze'/>
+              <img src='~/assets/icons/logo/Board-125x31.svg' alt='Board'/>
             </v-col>
           </v-row>
         </v-container>
@@ -27,8 +27,8 @@
               <v-icon @click="drawer = false">mdi-close</v-icon>
 
               <v-row no-gutters align="center" justify="end">
-                <p class="jello-user">Signed in as<br>
-                  {{ $nuxt.$fire.auth.currentUser.email }}</p>
+                <!--                <p class="jello-user">Signed in as<br>-->
+                <!--                  {{ $nuxt.$fire.auth.currentUser.email }}</p>-->
                 &nbsp;
                 <v-icon>mdi-account-circle-outline</v-icon>
               </v-row>
@@ -47,9 +47,9 @@
                 </nuxt-link>
               </div>
               <div class="d-flex">
-                <nuxt-link to="/auth/signout">
+                <button @click="logout">
                   <v-icon>mdi-exit-to-app</v-icon>&nbsp;&nbsp;<b>Sign out</b>
-                </nuxt-link>
+                </button>
               </div>
             </div>
           </v-container>
@@ -66,9 +66,19 @@ export default {
   data() {
     return {
       //buttons
-      drawer:false
+      drawer: false
     }
   },
+  methods: {
+    async logout() {
+      try {
+        await this.$fire.auth.signOut()
+        this.$router.push('/auth/signin')
+      } catch (e) {
+        alert(e)
+      }
+    }
+  }
 }
 </script>
 
