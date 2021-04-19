@@ -1,0 +1,23 @@
+[
+  {
+    "name": "auth-signin",
+    "path": "/auth/signin",
+    "component": "C:\\\\Users\\\\melni\\\\WebstormProjects\\\\untitled6\\\\MyBoard-jira-clone-\\\\pages\\\\auth\\\\signin.vue",
+    "chunkName": "pages/auth/signin",
+    "_name": "_49c57b98"
+  },
+  {
+    "name": "boards-id",
+    "path": "/boards/:id?",
+    "component": "C:\\\\Users\\\\melni\\\\WebstormProjects\\\\untitled6\\\\MyBoard-jira-clone-\\\\pages\\\\boards\\\\_id.vue",
+    "chunkName": "pages/boards/_id",
+    "_name": "_6c7d2fa2"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\melni\\\\WebstormProjects\\\\untitled6\\\\MyBoard-jira-clone-\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2f2245f4"
+  }
+]
